@@ -1,0 +1,87 @@
+{
+  "AWSAccountId": "983623687068",
+  "AWSContactTraceRecordFormatVersion": "2017-03-10",
+  "Agent": {
+    "ARN": "arn:aws:connect:ap-southeast-2:983623687068:instance/fba6354d-98a4-42d9-9675-8987c604ed92/agent/eb45439d-d7a5-4c73-9649-8dc5a135275c",
+    "AfterContactWorkDuration": 12,
+    "AfterContactWorkEndTimestamp": "2019-08-04T03:00:41Z",
+    "AfterContactWorkStartTimestamp": "2019-08-04T03:00:29Z",
+    "AgentInteractionDuration": 3,
+    "ConnectedToAgentTimestamp": "2019-08-04T03:00:21Z",
+    "CustomerHoldDuration": 5,
+    "HierarchyGroups": null,
+    "LongestHoldDuration": 5,
+    "NumberOfHolds": 1,
+    "RoutingProfile": {
+      "ARN": "arn:aws:connect:ap-southeast-2:983623687068:instance/fba6354d-98a4-42d9-9675-8987c604ed92/routing-profile/976b62e6-4dba-4dee-b44b-1b59da4afaad",
+      "Name": "Family Support Officer"
+    },
+    "Username": "rj-agent"
+  },
+  "AgentConnectionAttempts": 1,
+  "Attributes": {
+    "brandCode": "KH",
+    "brandFullName": "Kinder Haven",
+    "brandLogo": "kinder-haven.gif",
+    "brandName": "Kinder Haven",
+    "brandQueueArn": "arn:aws:connect:ap-southeast-2:983623687068:instance/fba6354d-98a4-42d9-9675-8987c604ed92/queue/f99aa0cd-2927-4bfd-bef0-d61bf3f23709",
+    "brandServiceNumber": "+61730634595",
+    "brandWelcomeAudioArn": "arn:aws:connect:ap-southeast-2:983623687068:instance/fba6354d-98a4-42d9-9675-8987c604ed92/prompt/4b461550-dec4-436e-82dc-679c66f11454"
+  },
+  "Channel": "VOICE",
+  "ConnectedToSystemTimestamp": "2019-08-04T03:00:03Z",
+  "ContactId": "c351789c-d41f-4b7c-9c38-feb284325a02",
+  "CustomerEndpoint": {
+    "Address": "+61473431564",
+    "Type": "TELEPHONE_NUMBER"
+  },
+  "DisconnectTimestamp": "2019-08-04T03:00:55Z",
+  "InitialContactId": null,
+  "InitiationMethod": "INBOUND",
+  "InitiationTimestamp": "2019-08-04T03:00:03Z",
+  "InstanceARN": "arn:aws:connect:ap-southeast-2:983623687068:instance/fba6354d-98a4-42d9-9675-8987c604ed92",
+  "LastUpdateTimestamp": "2019-08-04T03:01:59Z",
+  "MediaStreams": [
+    {
+      "Type": "AUDIO"
+    }
+  ],
+  "NextContactId": null,
+  "PreviousContactId": null,
+  "Queue": {
+    "ARN": "arn:aws:connect:ap-southeast-2:983623687068:instance/fba6354d-98a4-42d9-9675-8987c604ed92/queue/f99aa0cd-2927-4bfd-bef0-d61bf3f23709",
+    "DequeueTimestamp": "2019-08-04T03:00:21Z",
+    "Duration": 6,
+    "EnqueueTimestamp": "2019-08-04T03:00:15Z",
+    "Name": "FSO - Kinder Haven"
+  },
+  "Recording": {
+    "DeletionReason": null,
+    "Location": "g8-production-call-recordings/connect/g8-production/2019/08/04/c351789c-d41f-4b7c-9c38-feb284325a02_20190804T03:00_UTC.wav",
+    "Status": "AVAILABLE",
+    "Type": "AUDIO"
+  },
+  "Recordings": [
+    {
+      "DeletionReason": null,
+      "FragmentStartNumber": null,
+      "FragmentStopNumber": null,
+      "Location": "g8-production-call-recordings/connect/g8-production/2019/08/04/c351789c-d41f-4b7c-9c38-feb284325a02_20190804T03:00_UTC.wav",
+      "MediaStreamType": "AUDIO",
+      "ParticipantType": null,
+      "StartTimestamp": null,
+      "Status": "AVAILABLE",
+      "StopTimestamp": null,
+      "StorageType": "S3"
+    }
+  ],
+  "SystemEndpoint": {
+    "Address": "+61730634595",
+    "Type": "TELEPHONE_NUMBER"
+  },
+  "TransferCompletedTimestamp": "2019-08-04T03:00:29Z",
+  "TransferredToEndpoint": {
+    "Address": "+61862230527",
+    "Type": "TELEPHONE_NUMBER"
+  }
+}
